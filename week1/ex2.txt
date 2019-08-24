@@ -1,0 +1,41 @@
+    1  sudo apt-update
+    2  sudo apt update
+    3  sudo apt install git build-essential
+    4  ls
+    5  grep gcc
+    6  mnt
+    7  ls - la
+    8  ls -la
+    9  ./mnt/
+   10  ls ./mnt/
+   11  cd ..
+   12  ls ./mnt/
+   13  ls -l
+   14  ls ./mnt/
+   15  ls
+   16  pwd
+   17  ls
+   18  ls -la
+   19  cd ..
+   20  ls -la
+   21  ls ./mnt/
+   22  ls .mnt/d
+   23  ls ./mnt/d
+   24  /mnt/d# mkdir IU
+   25  cd ./mnt/d
+   26  /mnt/d# mkdir IU
+   27  mkdir IU
+   28  cd ./IU
+   29  mkdir ./week1
+   30  cd ./week1/
+   31  ls /usr/bin
+   32  ls /usr/bin | grep gcc
+   33  ls /usr/bin | grep gcc | sort -r
+   34  ls /usr/bin | grep gcc | sort
+   35  ls /usr/bin | grep gcc| sort -r > ex1.text
+   36  cat ./ex1.txt
+   37  ls /usr/bin | grep gcc| sort -r > ex1.txt
+   38  cat ./ex1.txt
+   39  tac ./ex1.txt
+   40  history
+   41  history > ex2.txt
