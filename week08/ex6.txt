@@ -1,0 +1,12 @@
+A machine has 16-bit virtual addresses.
+Pages are 8 KB. How many entries are needed for a single-level linear page table? Explain your computations.
+
+Each page is 8kb = 2^13
+
+2^16/2^13 = 2^3 = 8
+Page table requires you to have 8 entries.
+
+The upper 3 bits could specify one of the 8 virtual pages and the lower 5 bits would then specify the byte offset (0 to 32) within the selected page.
+
+
+

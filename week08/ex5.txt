@@ -1,0 +1,6 @@
+What is the difference between a physical and a virtual address? 
+
+Physical address of memory is the address of specific memory location where the data is stored, this address is the address of physical RAM
+chips.
+
+Virtual address of memory is the  address of virtual page that is mapping to the actual physical adress. Virtual address might be physically located not in RAM(depends on OS and particular citation) but programs don't know about this.
