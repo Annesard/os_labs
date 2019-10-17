@@ -1,0 +1,7 @@
+n order to increase Hit/Miss ratio we should increase amount of non unique keys in our inputs. Consequently, when the amount of unique keys approach to the size of our frame our ratio decrease. 
+
+Let's assume that n is the size of our frame. Arithmetic progression of 1 to n will be the best case because numbers dont repeat. 
+
+One of the worst cases could be just repetitive numbers 1,1, 1, .., 1 n times.
+
+
