@@ -1,0 +1,15 @@
+Line is printing when is "/n" met that is why we have 2 different cases:
+
+1. Result: 
+Hello
+Hello
+
+    fork() copy entire snapshot includes unprinted "Hello" in stoud.
+    Then we add "/n" in print that is why we have 2 lines.
+2.  Result:
+Hello
+
+
+
+We have "\n" before fork() that why when fork() stout is empty,  we have only \n.
+
