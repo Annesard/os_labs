@@ -1,0 +1,2 @@
+1. It is clear that buffer size affects copying time: more effect on bigger files.
+2. Asynchronous work faster because nothing became a bottleneck. 
